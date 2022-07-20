@@ -7,10 +7,44 @@ body {
 }
 
 a {
-  color: inherit;
+  color: blue;
   text-decoration: none;
 }
 
 * {
   box-sizing: border-box;
+}
+
+
+.user-form  {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-width: 500px;
+  margin: 100px auto;
+
+}
+.user-form input {
+  outline: none;
+}
+.user-form input[type='text'], 
+input[type='submit'], 
+input[type='password'] {
+  padding: 8px 12px;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.user-form input[type='submit'] {
+  display: inline-block;
+  color: #fff;
+  background-color: skyblue;
+  font-weight: 600;
+  border: none;
+  outline: none;
+}
+
+.user-form a {
+  color: blue !important
 }
